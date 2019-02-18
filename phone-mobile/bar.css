@@ -1,0 +1,107 @@
+#bar {
+	display: none;
+	padding: 10px 70px;
+	
+	 /*Verde:*/
+	/*background-color: #60c03f;*/
+
+	/*Azul*/
+	/*background-color: #1E73BE;*/
+
+	/*width: 100%;*/
+	text-align: center;
+	font-family: Arial,sans-serif;
+
+	/*border-bottom: 10px solid #f0f3f4;*/
+}
+
+#bar a {
+	text-decoration: none;
+	color:#fff;
+}
+
+#bar h4 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    margin:0px;
+    padding: 0px;
+}
+
+.botao {
+    padding-left: 0px;
+    display: inline;
+}
+
+.texto {
+	display: block;
+}
+
+.fale {
+	font-size: 14px;
+	font-weight: normal;
+  display: block;
+}
+
+
+.botao .icone {
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -35px;
+	display: none;
+}
+
+.fechar {
+	float: right;
+}
+
+.fechar a {
+	right: 30px;
+	position: absolute;
+	color: #fff;
+	font-size: 20px;
+	opacity: 0.5;
+	font-weight: bold;
+	top: 12px;
+	display: block;
+}
+
+.fechar a:hover {
+	opacity: 0.8;
+}
+
+.seta {
+	display: none;
+}
+
+
+
+
+@media (min-width: 580px) {
+   .botao {
+   	display: inline;
+   	padding-left: 35px;
+   }
+
+   .botao .icone {
+   	display: inline;
+   }
+
+   #bar h4 {
+   	font-size: 20px;
+   }
+
+   .texto {
+   	display: inline;
+   }
+
+   .fechar a {
+   	 top:13px;
+   }
+}
+
+@media (min-width: 668px) {
+   #bar {
+   	display: none !important;
+   }
+}

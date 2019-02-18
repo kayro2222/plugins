@@ -1,0 +1,27 @@
+#nav_bar > div > div.col-sm-2.col-xs-3 > div > ul::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#nav_bar > div > div.col-sm-2.col-xs-3 > div > ul::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+#nav_bar > div > div.col-sm-2.col-xs-3 > div > ul::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+#nav_bar > div > div.col-sm-2.col-xs-3 > div > ul::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.dropdown-menu .divider{
+    margin: 0;
+}
+
+.dropdown-menu > li > a{
+    padding: 10px !important;
+    text-align: center;
+}

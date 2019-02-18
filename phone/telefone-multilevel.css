@@ -1,0 +1,126 @@
+.panel-group{
+    margin-top: 10px;
+    width: 375px;
+    position: absolute;
+    z-index: 10000;
+    right: 15px;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px 1px rgba(28,28,28,.2), 0 6px 14px 0 rgba(28,28,28,.2);
+}
+
+.panel-heading{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0.5px solid #ddd !important;
+    padding: 7px;
+}
+
+.panel-group .panel+.panel{
+    margin-top: 0;
+}
+
+header .nav-1th .group-info ul>li{
+    border-left: 0;
+}
+
+div.panel-group > div.panel > div.panel-heading > div.panel-collapse > div.panel-body > ul{
+    list-style: none;
+}
+
+#accordion1 > div > a{
+    text-decoration: none;
+}
+
+#accordion1 > div > a > div > h4{
+    text-align: left;
+}
+
+div.panel-collapse > div > ul > li{
+    list-style: none;
+    text-align: left;
+    padding: 10px 0 10px 0;
+}
+
+div.panel-collapse > div > ul > li > a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin: 15px;
+}
+
+#phone{
+    width: 80%;
+}
+
+div.panel-collapse > div > ul > li > span{
+    font-weight: 600;
+    color: white;
+}
+
+#accordion1 > div > a > div > h4{
+    font-weight: 700;
+    color: #808080;
+    padding: 5px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#accordion1 > div > a > div{
+    background-color: #FFF;
+}
+
+div.panel-collapse{
+    background-color: #B0C2C8;
+}
+
+#phone{
+    font-weight: 900;
+    color: black;
+}
+
+.panel-group .panel{
+    border-radius: 0 !important;
+}
+
+.panel{
+    border-radius: 0 !important;
+    border: 0;
+}
+
+div.panel-collapse > div > ul{
+    margin: 0;
+}
+
+.rotate{
+    width: 18px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: transform .2s ease-in-out;
+}
+
+.rotate.up{
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+#phone{
+    padding-top: 9px !important;
+    border: 1px solid #3e3e3e !important;
+    box-shadow: none !important;
+    webkit-box-shadow: none !important;
+}
+
+#phone:visited {
+    border-top: 0 !important;
+    box-shadow: none !important;
+    webkit-box-shadow: none !important;
+}
+
+#phone:hover{
+    box-shadow: 0 !important;
+    webkit-box-shadow: 0 !important;
+    opacity: 0.8;
+}
